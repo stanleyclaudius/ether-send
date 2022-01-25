@@ -1,1 +1,11 @@
 /client/node_modules
+/smart_contract/node_modules
+
+/smart_contract/.env
+/smart_contractcoverage
+/smart_contract/coverage.json
+/smart_contract/typechain
+
+#Hardhat files
+/smart_contract/cache
+/smart_contract/artifacts
