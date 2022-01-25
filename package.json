@@ -1,0 +1,26 @@
+{
+  "name": "ether-send",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "cd client && npm run start",
+    "dev": "npm run client",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanleyclaudius/ether-send.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanleyclaudius/ether-send/issues"
+  },
+  "homepage": "https://github.com/stanleyclaudius/ether-send#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
