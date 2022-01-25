@@ -2,6 +2,7 @@
 /client/node_modules
 /smart_contract/node_modules
 
+/.env
 /smart_contract/.env
 /smart_contractcoverage
 /smart_contract/coverage.json
